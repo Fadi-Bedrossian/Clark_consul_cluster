@@ -6,7 +6,7 @@ Consul HA cluster contains the following resources:
 2- 1 bastion server with public ip and keypair
 3- 3 server consul ec2 and associated security groups
 4- 3 client consul ec2 and associated security groups
-5- 1 classic LB "elb" for consul servers with ssl cert from ACM and route from route 53 "DNS"
+5- 1 classic LB "elb" for consul servers 
 
 Please run the following commands to deploy the consul HA cluster:
 
